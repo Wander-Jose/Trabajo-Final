@@ -306,7 +306,7 @@ a:hover {
 }
 
 /* Estilos adaptados para móviles */
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 768px) {
     body {
         background-color: #007BFF;
         width: 100%; /* ancho de la caja */
