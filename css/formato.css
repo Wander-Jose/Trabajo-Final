@@ -1,0 +1,569 @@
+/* body............................... */
+body {
+    width: 1340px; /* ancho de la caja */
+    background-image: url(imagenes/pasto.jpg); /* imagen del body */
+    background-size: cover; /* Ajusta la imagen para que cubra toda el área */
+    background-attachment: fixed; /* Fija el fondo para que no se mueva */
+    display: flex; /* activa el flex */
+    flex-direction: column; /* Organiza las cajas en columna */
+    align-items: center; /* Centra verticalmente */
+    gap: 40px; /* Espacio entre las cajas */
+    margin: 0; /* Elimina margen externo */
+    padding: 0; /* Elimina margen interno */
+}
+
+/* header */
+.header {
+    width: 100%; /* ancho de la caja */
+    height: 200px; /* altura de la caja */
+    margin-bottom: 30px; /* Separacion del header del div */
+    display: flex; /* activa el display */
+    align-items: center; /* Centrar verticalmente */
+}
+.logo {
+    width: 200px; /* ancho de la caja */
+    height: 200px; /* altura de la caja */
+}
+.nombre {
+    width: 550px; /* ancho de la caja */
+    height: 60px; /* altura de la caja */
+    color: red; /* color de fuente */
+    width: 550px; /* ancho de la caja */
+    height: 45px; /* altura de la caja */
+    font-size: 30px; /* tamaño letra */
+}
+.menu {
+    width: 500px; /* ancho de la caja */
+    height: 30px; /* altura de la caja */
+    display: flex; /* activa el display */
+    align-items: center; /* Centrar verticalmente */
+    list-style-type: none; /* Quitar puntos */
+    gap: 9%; /* Espaciado entre los elementos */
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.966); /* sonbra */
+}
+.botones {
+    background-color: orange; /* color de fondo */
+    color: red; /* color de fuente */
+    text-shadow: 0px 1px 2px rgba(236, 9, 9, 0.966); /* Sombra */
+    width: 100px; /* ancho de la caja */
+    height: 30px; /* altura de la caja */
+    display: flex; /* activar el flex */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    border-radius: 50px; /* bordes des de las cajas */
+    cursor: pointer; /* cambia de cursor a manita */
+}
+
+/* inicio............................... */
+.caja-principal {
+    width: 100%; /* ancho de la caja */
+    display: flex; /* activa el display */
+    flex-direction: column; /* organizar en columna */
+    gap: 10px; /* separacion */
+}
+.titulo {
+    color: rgb(255, 0, 0); /* color de la fuente */
+    width: 100%; /* ancho de la caja */
+    height: 50px; /* altura de la caja */
+    font-size: 40px; /* tamaño de la fuente */
+    text-align: center;  /* testo centrado */
+}
+.imagenes {
+    display: flex; /* activa flex */
+    justify-content: center;  /* centra contenido */
+    gap: 10px; /* Espaciado entre las cajas */
+    width: 100%; /* ancho de la caja  */
+}
+.imagen {
+    width: 250px; /* Ancho de cada caja */
+    height: 200px; /* Altura de cada caja */
+    display: flex; /* activa el flex */
+    align-items: center;  /* alinea en el centro */
+    justify-content: center; /* Centra horizontalmente */
+    border-radius: 8px; /* bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(253, 1, 1, 0.411);  /* sombra */
+}
+
+/* servicios............................... */
+.superior-servicios {
+    display: flex; /* activa el flex */
+    justify-content: center;  /* centrar contenido*/
+    gap: 10px; /* Espaciado entre las cajas */
+    width: 100%; /* Ancho */
+    height: 200px; /* Altura */
+}
+.caja-servicios {
+    width: 250px; /* Ancho de cada caja */
+    height: 200px; /* Altura de cada caja */
+    border-radius: 10px; /* bordes redondeados */
+    background-color: aliceblue; /* color de fondo */
+    text-align: center; /* centra la fuente */
+    margin-top: -50px;  /* espacio entre cajas */
+}
+.servicios-titulo {
+    width: 100%; /* Ancho de cada caja */
+    height: 20px; /* Altura de cada caja */
+    font-size: 20px; /* tamaño de fuente */
+}
+.logo-servicios {
+    width: 170px; /* Ancho de cada caja */
+    height: 70%; /* Altura de cada caja */
+}
+.titulo-servicios {
+    font-size: 50px; /* tamaño de fuente */
+    width: 90%; /* Ancho de cada caja */
+    height: 80px; /* Altura de cada caja */
+    text-align: center; /* centra fuente */
+    color: red;  /* color de fuente */
+    margin: 0%; /* quita espacio */
+}
+.contenedor-marca {
+    display: flex; /* activa el flex */
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las cajas */
+    justify-content: center; /* Centra las filas */
+    width: 90%; /* Ancho de cada caja */
+    height: 450px; /* Altura de cada caja */
+}
+.caja-marcas {
+    width: 250px; /* Ancho de cada caja */
+    height: 230px; /* Altura de cada caja */
+}
+.marcas {
+    width: 100%; /* Ancho de cada caja */
+    height: 100%; /* Altura de cada caja */
+    display: flex; /* activa el flex */
+    align-items: center; /* centra  */
+    justify-content: center;
+    border-radius: 8px; /* borde redondeados */
+    box-shadow: 2px 2px 5px rgba(253, 1, 1, 0.411); /* sonbra */
+    background-color: aliceblue; /* color de fondo */
+}
+
+/* informacio............................... */
+.mision-vision {
+    display: flex; /* activa el display */
+    width: 100%; /* ancho de la caja */
+    height: 300px; /* altura de la caja */
+}
+.mision {
+    width: 50%; /* ancho de la caja */
+    height: 100%; /* altura de la caja */
+    background-image: url('imagenes/mision.jpg'); /* imagen de la mision */
+    background-size: cover; /* hace que cubra eltamaño de la caja */
+    text-align: center; /* centrar texto */
+    font-size: 1em; /* tamaño del texto */
+    color: rgb(255, 255, 255); /* Color del texto */
+}
+.vision {
+    width: 50%; /* ancho de la caja */
+    height: 100%; /* altura de la caja */
+    background-image: url('imagenes/vision.jpg'); /* Ruta de la imagen de fondo */
+    background-size:cover; /* hace que cubra eltamaño de la caja */
+    text-align: center; /* centrar texto */
+    font-size: 1em; /* tamaño del texto */
+    color: rgb(255, 255, 255); /* Color del texto */
+}
+.tamaño-letra {
+    font-size: 20px; /* tamaño de la fuente*/
+}
+.caja-sobre-nosotros {
+    background-color: rgba(76, 102, 250, 0.63); /* color de fondo */
+    width: 90%; /* ancho de la caja */
+    height: 30cap; /* altura de la caja */
+    color: aliceblue; /* color de las letras */
+    text-align: center;  /* centrado de la fuente */
+    border-radius: 20px; /* esquinas redondeadas */
+}
+.texto-sobre-nosotros {
+    font-size: 20px; /* tamaño de texto */
+    color: aliceblue; /* color de las letras */
+    text-align: center;  /* centrado de la fuente */
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.966); /* Sombra */
+}
+.caja-consejos {
+    text-align: center;   /* centrado de la fuente */
+    font-size: 2cap;  /* tamaño de la fuente */
+    width: 90%; /* ancho de la caja */
+}
+.consejos {
+    display: grid; /* Activa display */
+    grid-template-columns: repeat(2, 1fr); /* Crea 2 columnas iguales */
+    gap: 20px; /* separacion */
+    width: 70%; /* ancho de la caja */
+    background-color: rgba(240, 255, 255, 0.219); /* color de fondo */
+    width: 100%; /* ancho de la caja */
+    height: 25cap; /* altura de la caja */
+    border-radius: 20px; /* esquinas redondeadas */
+}
+.consejo {
+    border: 1px solid #ddd;  /* borde de la caja */
+    border-radius: 8px;  /* borde de la caja */
+    background-color: #f9f9f942; /* color de fondo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* sombra */
+}
+.consejo h2 {
+    margin-bottom: 10px; /* espacio */
+    color: #2c3d4e; /* color de fuente */
+}
+.consejo p {
+    color: #000000; /* color de fuente */
+    font-size: 80%;  /* tamaño de fuente */
+}
+
+/* Contactanos............................... */
+.contacto-contenedor {
+    width: 50%; /* ancho de la caja */
+    height: 650px; /* altura de la caja */
+    padding: 20px; /* espacio */
+    background: white; /* color de fondo */
+    border-radius: 8px;  /* bordes redondeados */
+}
+.contacto-contenedor h2 {
+    text-align: center; /* sentra el titulo */
+    color: #333; /* color de las letras */
+}
+.contacto-contenedor label {
+    display: block; /* activa el display */
+    margin-bottom: 8px; /* espaciado */
+    color: #555; /* color de las letras */
+}
+.contacto-contenedor input,   /* aplicando a input */
+.contacto-contenedor textarea {
+    width: 96%; /* ancho de la caja */
+    padding: 10px; /* espaciado */
+    margin-bottom: 15px; /* espacio */
+    border: 1px solid #ddd;  /* color bordes con grosor */
+    border-radius: 5px; /* bordes redondeados */
+    font-size: 16px; /* tamaño de fuente */
+}
+.contacto-contenedor textarea {
+    resize: vertical; /*redimensionar en verticalmente */
+    height: 120px; /* altura de la caja */
+}
+.contacto-contenedor button {
+    width: 100%; /* ancho de la caja */
+    padding: 10px; /* espacio */
+    background-color: #007BFF; /* color de fondo */
+    color: white; /* color de las letras */
+    font-size: 18px; /* tamaño de fuente */
+    border: none; /* quita borde */
+    border-radius: 5px; /* borde redondeados */
+    cursor: pointer;  /* cambia el curso al estar encima */
+}
+.contacto-contenedor button:hover {
+    background-color: #0056b3; /* canbio de color del boton */
+}
+
+/* footer............................... */
+footer {
+    background-color: #333; /* color de fondo */
+    color: white; /* color de las letras */
+    padding: 20px; /* lo que se espande */
+    width: 90%; /* ancho de la caja */
+    border-radius: 20px; /* esquinas redondeadas */
+}
+.footer-container {
+    width: 98%; /* ancho de la caja */
+    height: 100%; /* altura de la caja */
+    display: flex; /* activa el display */
+    flex-wrap: wrap; /* Permite se ajuste en la filas */
+    gap: 10px;  /* espacio */
+    justify-content: center; /* centra */
+    padding: 10px; /* espande */
+}
+.footer-section {
+    width: 30%; /* ancho de la caja */
+    height: 38%; /* altura de la caja */
+}
+h4 {
+    margin-bottom: 10px; /* espande */
+    font-size: 18px; /* tamaño de fuente */
+    text-transform: uppercase; /* convierte fuente a mayuscula */
+    color: #ffcc00; /* color de las letras */
+}
+p, a {
+    margin: 5px 0; /* espande */
+    font-size: 14px; /* tamaño de fuente */
+    color: #ccc; /* color de las letras */
+    text-decoration: none; /* quita puntos */
+}
+a:hover {
+    color: #ffcc00; /* color de las letras */
+}
+.redes a {
+    margin-right: 10px; /* espande */
+    display: inline-block; /* activa el display */
+    color: white; /* color de las letras */
+    font-size: 20px; /* tamaño de fuente */
+}
+.redes a:hover {
+    color: #ffcc00; /* color de las letras */
+}
+.mapa { /* ejuste del mapa */
+    width: 100%; /* Hace que el mapa se ajuste al contenedor */
+    height: 150px; /* Reduce la altura del mapa */
+}
+
+/* Estilos adaptados para móviles */
+@media screen and (max-width: 844px) {
+    body {
+        background-color: #007BFF;
+        width: 100%; /* ancho de la caja */
+        height: 100%; /* altura de la caja */
+        background-image:1 url(imagenes/pasto.jpg); /* imagen del body */
+        background-size: cover; /* Ajusta la imagen para que cubra toda el área */
+        background-attachment: fixed; /* Fija el fondo para que no se mueva */
+        display: flex;
+        flex-direction: column; /* Organiza las cajas en columna */
+        align-items: center; /* Centra verticalmente */
+        gap: 40px; /* Espacio entre las cajas */
+        margin: 0; /* Elimina margen externo */
+        padding: 0; /* Elimina margen interno */
+    }
+
+    /* header */
+    .header {
+        background-color: #0057b37a;
+        width: 100%; /* ancho de la caja */
+        height: 100%; /* altura de la caja */
+        margin-bottom: 30px; /* Separacion del header del div */
+        display: flex; /* activa el display */
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .logo {
+        width: 50%; /* ancho de la caja */
+        height: 30%; /* altura de la caja */
+        margin: 3%; /* espande */
+    }
+    .nombre {
+        background-color: #ff009d3b;
+        color: red;
+        width: 90%; /* ancho de la caja */
+        height: 30%; /* altura de la caja */
+        font-size: 160%; /* tamaño letra */
+        text-align: center;
+        margin: 0;
+    }
+    .menu {
+        background-color: blueviolet;
+        width: 80%; /* ancho de la caja */
+        height: 60%; /* altura de la caja */
+        display: flex; /* activa el display */
+        justify-content: flex-end;
+        list-style-type: none; /* Quitar puntos */
+        gap: 3%; /* Espaciado entre los elementos */
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.966); 
+        margin: 3%;
+    }
+    .botones {
+        color: red;
+        text-shadow: 0px 1px 2px rgba(236, 9, 9, 0.966); /* Sombra */
+        width: 20%; /* ancho de la caja */
+        height: 100%; /* altura de la caja */
+        display: flex; /* activar el flex */
+        font-size: 60%;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        border-radius: 50px; /* bordes des de las cajas */
+    }
+
+    /* inicio............................... */
+    .caja-principal {
+        width: 100%; /* ancho de la caja */
+        display: flex; /* activa el display */
+        flex-direction: column;
+        gap: 5%; /* separacion */
+    }
+    .titulo {
+        color: rgb(255, 0, 0);
+        width: 100%; /* ancho de la caja */
+        height: 50%; /* altura de la caja */
+        font-size: 20px; /* tamaño de la letra */
+        text-align: center;  /* testo centrado */
+    }
+    .imagenes {
+        display: flex;
+        justify-content: center;
+        gap: 10px; /* Espaciado entre las cajas */
+        width: 100%; /* ancho de la caja  */
+    }
+    .imagen {
+        width: 22%; /* Ancho de cada caja */
+        height: 20%; /* Altura de cada caja */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px rgba(253, 1, 1, 0.411);
+        font-weight: bold;
+    }
+
+    /* servicios............................... */
+    .superior-servicios {
+    display: flex;
+    justify-content: center;
+    gap: 2px; /* Espaciado entre las cajas */
+    width: 100%; /* Ancho máximo del contenedor */
+    height: 40%; /* Altura de cada caja */
+    }
+    .caja-servicios {
+    width: 23%; /* Ancho de cada caja */
+    height: 20%; /* Altura de cada caja */
+    border-radius: 10px; /* bordes redondeados */
+    background-color: aliceblue;
+    text-align: center;
+    }
+    .servicios-titulo {
+        width: 100%; /* Ancho de cada caja */
+        height: 10%; /* Altura de cada caja */
+        font-size: 100%;
+    }
+    .logo-servicios {
+        width: 70%; /* Ancho de cada caja */
+        height: 70%; /* Altura de cada caja */
+    }
+    .titulo-servicios {
+        font-size: 100%;
+        width: 100%; /* Ancho de cada caja */
+        height: 100%; /* Altura de cada caja */
+        text-align: center;
+        color: red;
+    }
+    .contenedor-marca {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las cajas */
+    justify-content: center; /* Centra las filas */
+    width: 90%; /* Ancho de cada caja */
+    height: 100%; /* Altura de cada caja */
+    }
+    .caja-marcas {
+        background-color: chartreuse;
+        width: 40%; /* Ancho de cada caja */
+        height: 100%; /* Altura de cada caja */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .marcas {
+        width: 100%; /* Ancho de cada caja */
+        height: 100%; /* Altura de cada caja */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px rgba(253, 1, 1, 0.411);
+        font-weight: bold;
+        background-color: aliceblue;
+    }
+
+    /* Contactanos............................... */
+    .mision-vision {
+        display: flex;
+        flex-direction: column; /* Organiza las cajas en columna */
+        align-items: center; /* Centra verticalmente */
+        width: 100%; /* ancho de la caja */
+        height: 300px; /* altura de la caja */
+        margin: 20%;
+    }
+    .mision {
+        width: 90%; /* ancho de la caja */
+        height: 100%; /* altura de la caja */
+        background-image: url('imagenes/mision.jpg'); /* imagen de la mision */
+        background-size: cover; /* hace que cubra eltamaño de la caja */
+        text-align: center; /* centrar texto */
+        font-size: 1em; /* tamaño del texto */
+        color: rgb(255, 255, 255); /* Color del texto */
+        text-shadow: 0px 1px 1px rgba(43, 70, 71, 0.966); /* Sombra */
+    
+    }
+    .vision {
+        width: 90%; /* ancho de la caja */
+        height: 100%; /* altura de la caja */
+        background-color: rgb(255, 158, 158); /* elimninar al funal */
+        background-image: url('imagenes/vision.jpg'); /* Ruta de la imagen de fondo */
+        background-size:cover; /* hace que cubra eltamaño de la caja */
+        text-align: center; /* centrar texto */
+        color: rgb(255, 255, 255); /* Color del texto */
+        text-shadow: 0px 1px 1px rgba(43, 70, 71, 0.966); /* Sombra */
+    }
+    .tamaño-letra {
+        font-size: 80%;
+    }
+    .caja-sobre-nosotros {
+        background-color: rgba(76, 102, 250, 0.63);
+        width: 90%; /* ancho de la caja */
+        height: 32cap; /* altura de la caja */
+        color: aliceblue; /* color de las letras */
+        text-align: center;
+        border-radius: 20px; /* esquinas redondeadas */
+    }
+    .texto-sobre-nosotros {
+        font-size: 80%; /* tamaño de texto */
+        color: aliceblue; /* color de las letras */
+        text-align: center; /* texto aliniado en el centro */
+        text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.966); /* Sombra */
+    }
+    .caja-consejos {
+        background-color: #3333338e;
+        text-align: center;
+        font-size: 2cap;
+        width: 90%; /* ancho de la caja */
+    }
+    .consejo {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f942;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .consejo h2 {
+        margin-bottom: 10px;
+        color: #2c3d4e;
+    }
+    .consejo p {
+        color: #000000;
+        font-size: 80%;
+    }
+
+    /* Contactanos............................... */
+    .contacto-contenedor {
+        width: 60%;
+        height: 50%;
+        padding: 20px;
+        background: white; /* color de fondo */
+        border-radius: 8px;
+        font-size: 100%;
+    }
+    .contacto-contenedor textarea {
+        width: 96%;
+        padding: 10px;
+        margin-bottom: 15%;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .contacto-contenedor button:hover {
+        background-color: #0056b3; /* canbio de color del boton */
+    }
+
+    /* footer............................... */
+    .footer-container {
+        width: 95%; /* ancho de la caja */
+        height: 100%; /* altura de la caja */
+        display: flex; /* activa el display */
+        flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+        gap: 30%;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .footer-section {
+        width: 30%; /* ancho de la caja */
+        height: 38%; /* altura de la caja */
+    }
+    h4 p {
+        font-size: 70%;
+    }
+}
